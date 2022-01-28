@@ -1,3 +1,3 @@
 # nlp-pico-snorkel
 
-Current task: reading Bojian's paper.
+Current task: (still) reading Bojian's paper.
