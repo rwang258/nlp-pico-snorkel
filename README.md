@@ -2,4 +2,5 @@
 
 Current task: 
 (pretty much done) reading Bojian's paper.
-(now) looking at his code.
+(on hold) looking at his code.
+looking for a BERT tutorial!
