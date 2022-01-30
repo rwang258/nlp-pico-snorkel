@@ -6,3 +6,4 @@ Current task:
 looking for a BERT tutorial!
 Been working on the BERT implementation for whole day.
 Almost done.
+Spent whole day working on model - but turns out I need a GPU for it...
