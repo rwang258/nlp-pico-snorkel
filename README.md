@@ -5,3 +5,4 @@ Current task:
 (on hold) looking at his code.
 looking for a BERT tutorial!
 Been working on the BERT implementation for whole day.
+Almost done.
