@@ -13,6 +13,7 @@ Current progress:
     - Currently installing some things like jupyter in my directory (is this ok?)
     - Creating a virtual env currently
         - export PATH=/share/apps/anaconda3/2021.05/bin:$PATH
+    - asking IT for help with GPU access still
 
 
 **new_snorkel_pico.ipynb** is applying Snorkel to the EBM-NLP PICO dataset.
