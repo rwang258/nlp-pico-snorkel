@@ -9,6 +9,7 @@
         - export PATH=/share/apps/anaconda3/2021.05/bin:$PATH
     - asking IT for help with GPU access still
     - Currently trying to run jupyter file
+    - Currently stuck with an error while running .ipynb on GPU
  
 Current progress:
 - (done) reading Bojian's paper. 
