@@ -1,10 +1,4 @@
 # nlp-pico-snorkel
- 
-Current progress:
-- (done) reading Bojian's paper. 
-- (done) looking at his code.
-- (done) looking for a BERT tutorial
-- (done) finished BERT implementation
 
 2/11 Action Items:
 - Logging into the GPU. (done)
@@ -14,6 +8,14 @@ Current progress:
     - Creating a virtual env currently
         - export PATH=/share/apps/anaconda3/2021.05/bin:$PATH
     - asking IT for help with GPU access still
+    - Currently trying to run jupyter file
+ 
+Current progress:
+- (done) reading Bojian's paper. 
+- (done) looking at his code.
+- (done) looking for a BERT tutorial
+- (done) finished BERT implementation
+
 
 
 **new_snorkel_pico.ipynb** is applying Snorkel to the EBM-NLP PICO dataset.
