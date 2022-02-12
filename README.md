@@ -10,7 +10,9 @@
     - asking IT for help with GPU access still
     - Currently trying to run jupyter file
     - Currently stuck with an error while running .ipynb on GPU
+    - Gn
  
+
 Current progress:
 - (done) reading Bojian's paper. 
 - (done) looking at his code.
