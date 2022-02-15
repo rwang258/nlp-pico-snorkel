@@ -1,5 +1,9 @@
 # nlp-pico-snorkel
 
+2/14 Progress:
+- got code running on GPU
+- need to debug some of the metric calculations, but model is being trained
+
 2/11 Action Items:
 - Logging into the GPU. (done)
 - Running the supervised model with PICO on the GPU. (not done)
