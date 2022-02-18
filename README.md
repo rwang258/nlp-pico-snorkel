@@ -1,5 +1,5 @@
 # nlp-pico-snorkel
-
+Still working... just finished
 2/14 Progress:
 - got code running on GPU
 - need to debug some of the metric calculations, but model is being trained
