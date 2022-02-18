@@ -1,4 +1,5 @@
 # nlp-pico-snorkel
+2/18 Data is consistent now.
 Still working... just finished
 2/14 Progress:
 - got code running on GPU
