@@ -1,5 +1,22 @@
 # nlp-pico-snorkel
 
-**new_snorkel_pico.ipynb** is applying Snorkel to the EBM-NLP PICO dataset.
+**PIO_processing** contains code used by Bojian to generate the input datasets.
 
-**supervised_learning.ipynb** is the baseline BERT supervised learning model on the same intervention labeling task with the same dataset.
+**archive** and **archive2** contains old code.
+
+**lf_datasets** and **nltk_data** contains datasets used in the labeling functions with Snorkel.
+
+**error.ipynb** contains the code used to generate the Snorkel error files.
+
+**error** contains the error files.
+
+**df.ipynb** and **df.py** contains the code used to generate the input to Snorkel and BERT.
+
+**snorkel_pico.ipynb** and **snorkel_pico.py** is using Snorkel on the PICO dataset.
+
+**bert.ipynb** is the baseline BERT supervised learning model on the same intervention labeling task with the same dataset.
+
+Not here, but will be linked with Box soon:
+**pico_datasets** contains the original abstracts in the PICO paper.
+**df_orig.pickle** contains the pickel object used to store the input to Snorkel and BERT.
+**first_sentence_file.pickle** contains the first sentence of every abstract.
