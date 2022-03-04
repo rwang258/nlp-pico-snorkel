@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+bin
+boot/
+dev/
+df_orig.pickle
+etc/
+first_sentence_file.pickle
+pico_datasets/
