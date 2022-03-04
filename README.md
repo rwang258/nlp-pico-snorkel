@@ -1,4 +1,5 @@
 # nlp-pico-snorkel
+2/4 Updates: Got snorkel and BERT running on server, spent a lot of time on this. Snorkel is currently running, should have results by morning. I will need more time to understand BERT to do the error analysis.
 2/25 Got BERT working!!!! WooHOOOO!
 2/18 Data is consistent now.
 Still working... just finished
