@@ -23,9 +23,9 @@ with open('first_sentence_file.pickle', 'rb') as handle:
     
 # Read in suffixes.
 # https://druginfo.nlm.nih.gov/drugportal/jsp/drugportal/DrugNameGenericStems.jsp
-df_drugs = pd.read_csv("suffixes/drug_suffixes.txt", header = None)
-df_surgery = pd.read_csv("suffixes/surgical_suffixes.txt", header = None)
-df_psych = pd.read_csv("suffixes/psychotherapy_keywords.txt", header = None)
+df_drugs = pd.read_csv("lf_datasets/suffixes/drug_suffixes.txt", header = None)
+df_surgery = pd.read_csv("lf_datasets/suffixes/surgical_suffixes.txt", header = None)
+df_psych = pd.read_csv("lf_datasets/suffixes/psychotherapy_keywords.txt", header = None)
 
 df_psych[0] = df_psych[0].str.lower()
 df_surgery[0] = df_surgery[0].str.lower()
@@ -35,10 +35,10 @@ df_drugs[0] = df_drugs[0].str.lower()
 
 # Read in FDA data.
 
-df_purple = pd.read_csv("fda_approved_drugs/products_purplebook.csv")
-df_orange = pd.read_csv("fda_approved_drugs/products_orangebook.txt", 
+df_purple = pd.read_csv("lf_datasets/fda_approved_drugs/products_purplebook.csv")
+df_orange = pd.read_csv("lf_datasets/fda_approved_drugs/products_orangebook.txt", 
                         sep = "~")
-df_drugs_at_fda = pd.read_csv("fda_approved_drugs/products_drugs_at_fda.txt", 
+df_drugs_at_fda = pd.read_csv("lf_datasets/fda_approved_drugs/products_drugs_at_fda.txt", 
                               sep = "\t", 
                               error_bad_lines = False)
 

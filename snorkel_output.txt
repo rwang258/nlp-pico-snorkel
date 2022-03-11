@@ -1,0 +1,16 @@
+Total stop words = 179
+got to here
+Majority Model F1:        29.2%
+Majority Model Accuracy:  77.5%
+Majority Model Precision: 21.1%
+Majority Model Recall:    47.1%
+Majority Model AUC ROC:   71.2%
+Majority Model Coverage:  100.0%
+++++++++++++++++++++++++
+Label Model F1:           29.1%
+Label Model Accuracy:     76.5%
+Label Model Precision:    20.7%
+Label Model Recall:       49.1%
+Label Model AUC ROC:      73.1%
+Label Model Coverage:     100.0%
+Accuracy if predicting majority class 0.9018356729164622
