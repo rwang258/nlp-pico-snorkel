@@ -8,7 +8,7 @@
 
 **error.ipynb** contains the code used to generate the Snorkel error files.
 
-**error** contains the error files.
+**error** contains the error files. **combined** has the final error files. Tokens that are gold labeled as intervention are bolded, tokens that are missed (tokens gold labeled as intervention, but were predicted as not intervention or abstained on) are italicized and bolded. Tokens that are gold-labeled as not intervention but predicted by Snorkel as intervention are crossed out (mislabeled).
 
 **df.ipynb** and **df.py** contains the code used to generate the input to Snorkel and BERT.
 
@@ -20,3 +20,6 @@ Not here, but will be linked with Box soon:
 **pico_datasets** contains the original abstracts in the PICO paper.
 **df_orig.pickle** contains the pickel object used to store the input to Snorkel and BERT.
 **first_sentence_file.pickle** contains the first sentence of every abstract.
+
+Temporary files:
+**bert_gold.txt**, **bert_input.txt**, **bert_preds.txt** are the inputs, gold labels, and predictions for a sample abstract from BERT. 
