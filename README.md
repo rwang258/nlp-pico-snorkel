@@ -13,7 +13,7 @@
 
 - **gold**, **missed*, and **wrong** contain specific types of error files. Some background: Snorkel predicts 3 labels. A label of 1 means intervention, 0 means not intervention, -1 means abstain.
 
--- The folder 'gold' has all tokens labeled as intervention, highlighted. The folder 'missed' has all tokens that are missed highlighted (meaning tokens that are labeled as 1, but predicted as 0 or -1). The folder 'wrong' has mislabeled tokens highlighted (meaning tokens labeled as 0 but predicted as 1, and tokens labeled as 1 but predicted as 0).
+  - The folder 'gold' has all tokens labeled as intervention, highlighted. The folder 'missed' has all tokens that are missed highlighted (meaning tokens that are labeled as 1, but predicted as 0 or -1). The folder 'wrong' has mislabeled tokens highlighted (meaning tokens labeled as 0 but predicted as 1, and tokens labeled as 1 but predicted as 0).
 
 **df.ipynb** and **df.py** contains the code used to generate the input to Snorkel and BERT.
 
