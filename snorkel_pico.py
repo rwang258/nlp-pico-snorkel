@@ -69,20 +69,21 @@ set_fda = set.union(set_proprietary, set_proper)
 
 
 # read the pickle file
-with open('df_orig.pickle', 'rb') as handle:
-    df_orig = pickle.load(handle)
+with open('df_train.pickle', 'rb') as handle:
+    df_train = pickle.load(handle)
+    
+with open('df_test.pickle', 'rb') as handle:
+    df_test = pickle.load(handle)
 
 # Remove None type labels. BERT does the same.
-df_orig = df_orig.dropna()
-df_orig = df_orig.reset_index(drop = True)
+df_train = df_train.dropna()
+df_train = df_train.reset_index(drop = True)
 
-# Train-test split (80% / 20%, stratified by gold label value).
-X_train, X_test, y_train, y_test = train_test_split(df_orig["token"], 
-                                                    df_orig["gold"], 
-                                                    test_size = 0.1, 
-                                                    random_state = 42)
-df_train = df_orig.iloc[X_train.index].reset_index(drop = True)
-df_test = df_orig.iloc[X_test.index].reset_index(drop = True)
+# Remove None type labels. BERT does the same.
+df_test = df_test.dropna()
+df_test = df_test.reset_index(drop = True)
+
+
 
 
 

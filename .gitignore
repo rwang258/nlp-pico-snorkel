@@ -3,6 +3,8 @@ bin
 boot/
 dev/
 df_orig.pickle
+df_train.pickle
+df_test.pickle
 etc/
 first_sentence_file.pickle
 pico_datasets/
