@@ -18,7 +18,7 @@
 
 Not here, but will be linked with Box soon:
 **pico_datasets** contains the original abstracts in the PICO paper.
-**df_orig.pickle** contains the pickel object used to store the input to Snorkel and BERT.
+**df_orig.pickle**, **df_train.pickle**, **df_test.pickle** contains the pickel objects used to store the input to Snorkel and BERT.
 **first_sentence_file.pickle** contains the first sentence of every abstract.
 
 Temporary files:
